@@ -18,6 +18,7 @@ module.exports = {
         filename: 'index.js',
         path: path.resolve(__dirname, 'dist'),
         library: "is_hardhad",
+        libraryTarget: "umd",
+        globalObject: "this",
     },
-    watch: true,
 };

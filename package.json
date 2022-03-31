@@ -1,11 +1,12 @@
 {
   "name": "is-harshad",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "checks whether a given number is a hardshad number, a hardshad number is an integer that is divisible by the sum of its digits.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "dev": "webpack --mode=development",
+    "dev": "webpack --mode=development --watch",
     "prepublishOnly": "webpack --mode=production"
   },
   "repository": "https://github.com/Fibii/is-harshad.git",
