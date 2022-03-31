@@ -4,6 +4,10 @@
   "description": "checks whether a given number is a hardshad number, a hardshad number is an integer that is divisible by the sum of its digits.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "prepublishOnly": "webpack --mode=production"
+  },
   "repository": "https://github.com/Fibii/is-harshad.git",
   "author": "Charef Bahria",
   "license": "MIT",
