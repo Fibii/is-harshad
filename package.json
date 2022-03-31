@@ -1,6 +1,6 @@
 {
   "name": "is-harshad",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "checks whether a given number is a hardshad number, a hardshad number is an integer that is divisible by the sum of its digits.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
